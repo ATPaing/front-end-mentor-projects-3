@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main>
+      <section class="first-part">
+        <div class="title-and-theme-toggle">
+          <div class="title">
+           <h1>TODO</h1>
+          </div> 
+          <div class="theme-toggle">
+            <img  id="themeToggleBtn" src="images/icon-sun.svg" alt="sun toggle">
+          </div>
+        </div>
+        <div id="listInput" class="list-input">
+          <div class="input">
+            <input type="text" id="inputField" class="input-field" placeholder="Write your text here" autofocus>
+          </div>
+        </div>
+      </section>
+
+      <section id="listDisplay" class="list-display">
+       <div id="lists" class="lists"></div>
+      </div>  
+        <section class="options">
+          <div class="item-left-display">
+            <p><span id="itemLeft">0</span> Item(s) <span id="itemCondition">Total</span></p>
+          </div>
+
+          <div class="options__right-side">
+            <div class="filter-methods">
+              <p id="allBtn" class="active-filter">All</p>
+              <p id="activeBtn">Active</p>
+              <p id="completedBtn">Completed</p>
+            </div>
+
+            <div class="delete-finished-lists">
+              <p id="clearCompletedBtn">Clear Completed</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+  <script src="main.js"></script>
+</html>
+ <!-- 
+  
+  Todo
+
+  Add dynamic number items left
+
+  All
+  Active 
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list -->
