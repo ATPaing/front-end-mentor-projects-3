@@ -38,6 +38,7 @@ main{
     align-items: center;
     background-image: url('images/bg-desktop-dark.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 40vh;
 }
 .title-and-theme-toggle{
